@@ -17,7 +17,6 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-android-extensions'
     id 'kotlin-kapt'
 }
 
@@ -66,7 +65,7 @@ dependencies {
     testImplementation 'org.mockito:mockito-core:3.4.6'
     testImplementation 'android.arch.core:core-testing:1.1.1'
 
-    def androidx_test_version = "1.6.2"
+    def androidx_test_version = "1.6.1"
     androidTestImplementation "androidx.test:runner:$androidx_test_version"
     androidTestImplementation "androidx.test:core-ktx:$androidx_test_version"
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
